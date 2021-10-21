@@ -26,19 +26,19 @@ include $(FRAMEWORK_DIR)/moose.mk
 
 ALL_MODULES                 := no
 
-CHEMICAL_REACTIONS          := no
+CHEMICAL_REACTIONS          := yes
 CONTACT                     := no
-EXTERNAL_PETSC_SOLVER       := no
-FLUID_PROPERTIES            := no
+EXTERNAL_PETSC_SOLVER       := yes
+FLUID_PROPERTIES            := yes
 FSI                         := no
 FUNCTIONAL_EXPANSION_TOOLS  := no
 GEOCHEMISTRY                := no
 HEAT_CONDUCTION             := no
 LEVEL_SET                   := no
 MISC                        := no
-NAVIER_STOKES               := no
+NAVIER_STOKES               := yes
 PHASE_FIELD                 := no
-POROUS_FLOW                 := no
+POROUS_FLOW                 := yes
 RAY_TRACING                 := no
 RDG                         := no
 RICHARDS                    := no
